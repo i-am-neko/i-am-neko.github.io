@@ -1,0 +1,72 @@
+* {
+	background-color: #333;
+	margin: 0;
+}
+
+.white-text {
+	color: #fff;
+}
+
+.yellow-text {
+	color: #eed202;
+}
+
+.pyellow-text {
+	color: #FDFD96;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* Header */
+
+header h1 {
+	font-size: 60px;
+}
+
+header {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.banner {
+	display: inline-block;
+	margin: 0 auto;
+	width: 800px;
+	height: 275px;
+
+}
+
+
+h3 {
+	font-size: 30px;
+}
+
+.project, .post {
+	display: inline-block;
+}
+
+/* Project list */
+
+.project * {
+	width: 300px;
+}
+
+.project-image {
+	margin: 10px 10px 0 10px;
+}
+
+.project-description p {
+	margin: 0 10px 10px 10px;
+	min-height: 100px;
+	height: auto;
+}
+
+.project-description p, .project-description p a {
+	background-color: #222;
+}
+
+/* Post list */
+
