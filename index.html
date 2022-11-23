@@ -3,42 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Neko's page - Home</title>
+	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>
-	<header>
-		<a href="https://www.deviantart.com/crowik/art/Eyes-of-generosity-518575206"><img src="./assets/rarity_eyes.jpg" class="banner"></a>
+	<header id="footer">
+		<a href="https://www.deviantart.com/bunxl/art/pipp-petals-893227376" id="bgsrc">Background Source</a>
 	</header>
 
 	<main>
-
+		
+		<div id="tags">
+			
+		</div>
 		<div id="projects">
-			<h3 class="pyellow-text centered">Projects</h3>
-			<div class="project">
-				<a href="https://github.com/i-am-neko/Kiririn"><img src="./assets/kiririn.jpeg" alt="Kirino figure image by majiri on MFC" class="project-image"></a>
-				<div class="project-description">
-					<p class="pyellow-text">Anime figurine scraper and database.<br>
-						<a href="https://myfigurecollection.net/profile/majiri" class="pyellow-text">source</a></p>
-				</div>
+			<div class="project web-scraping anime finance hobby-based python">
+				<a href="https://github.com/i-am-neko/Kiririn" class="projlink">
+				<h4 class="title">Kiririn</h4>
+				<img src="./assets/proj_kiririn.png" class="image">
+				<p class="description">Scraper and index to get prices and availability on multiple websites and determine best way to get the figures you want.</p></a>
 			</div>
-		</div>
 
-		<div id="posts">
-			<h3 class="pyellow-text centered">Posts</h3>
-			<!-- <div class="project">
-				<a href=""><img src="./assets/kiririn.jpeg" alt="" class="project-image"></a>
-				<div class="project-description">
-					<p class="pyellow-text">aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaa<br>
-						<a href="https://myfigurecollection.net/profile/majiri" class="pyellow-text">source</a></p>
-				</div>
-			</div> -->
+			<div class="project web-scraping data-hoarding blogs forums python">
+				<a href="https://github.com/i-am-neko/golden-oak" class="projlink">
+				<h4 class="title">Golden Oak</h4>
+				<img src="./assets/" class="image">
+				<p class="description">Scraper and viewer of blogs, forums, and other similar sites to keep the information local.</p></a>
+			</div>
+
+			<div class="project web-scraping finance python">
+				<a href="https://github.com/i-am-neko/buy-tech" class="projlink">
+				<h4 class="title">Buy Tech</h4>
+				<img src="./assets/" class="image">
+				<p class="description">Similar to Kiririn but for tech. Scrapes sites like microcenter and bestbuy to find best way to buy technology.</p></a>
+			</div>
+
 		</div>
+		<img src="./assets/Pipp.png" id="bg">
 
 	</main>
 
-	<footer>
-		
-	</footer>
+	<script type="text/javascript" src="filter.js"></script>
+	<script type="text/javascript" src="homepage.js"></script>
 </body>
 </html>

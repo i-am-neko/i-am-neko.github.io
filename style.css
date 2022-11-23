@@ -1,72 +1,105 @@
 * {
-	background-color: #333;
 	margin: 0;
 }
 
-.white-text {
-	color: #fff;
+main {
+	height: 100%;
+	width: 80%;
 }
 
-.yellow-text {
-	color: #eed202;
+#footer, #tags, #projects {
+	background-color: rgba(0, 0, 0, 0.55);
 }
 
-.pyellow-text {
-	color: #FDFD96;
-}
+#footer {
+	position: fixed;
+	z-index: 2;
 
-.centered {
-	text-align: center;
-}
-
-/* Header */
-
-header h1 {
-	font-size: 60px;
-}
-
-header {
+	height: 76px;
 	width: 100%;
-	position: relative;
+
+	margin-bottom: 10px;
+
+	text-align: center;
+	
+}
+
+#bgsrc {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+
+	color: white;
+	font-size: 20px;
+}
+
+#bg {
+	position: fixed;
+	z-index: 1;
+
+	height: 100%;
+	width: 100%;
+}
+
+#tags, #projects {
+	top: 10px;
+	display: inline-block;
+	z-index: 2;
+
+	margin-top: 77px;
+
+	
+}
+
+#tags {
+	position: fixed;
+	right: 0;
+	
+	height: 100%;
+	width: 30%;
+}
+
+#projects {
+	position: absolute;
+	left: 0;
+
+	height: auto;
+	min-height: 600px;
+	width: 65%;
+}
+
+.project {
+	height: 500px;
+	width: 333px;
+	float: left;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, .2);
+
+}
+
+.projlink {
+	text-decoration: none;
+}
+
+.title {
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	color: white;
 	text-align: center;
 }
 
-.banner {
-	display: inline-block;
-	margin: 0 auto;
-	width: 800px;
-	height: 275px;
+.image {
+	height: 300px;
+	width: 250px;
+	margin-left: 25px;
 
 }
 
-
-h3 {
-	font-size: 30px;
-}
-
-.project, .post {
-	display: inline-block;
-}
-
-/* Project list */
-
-.project * {
+.description {
+	height: 130px;
 	width: 300px;
+	margin: 10px;
+	overflow: auto;
+	color: white;
 }
-
-.project-image {
-	margin: 10px 10px 0 10px;
-}
-
-.project-description p {
-	margin: 0 10px 10px 10px;
-	min-height: 100px;
-	height: auto;
-}
-
-.project-description p, .project-description p a {
-	background-color: #222;
-}
-
-/* Post list */
-
